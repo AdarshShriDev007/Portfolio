@@ -14,7 +14,10 @@ import {
   LinkedInClone,
   NetflixClone,
   GmailClone,
-  FacebookClone
+  FacebookClone,
+  UberClone,
+  ServEdu_UI,
+  Weather_App
 } from "../assets";
 
 export const Socials = [
@@ -73,45 +76,66 @@ export const Menus = [
 
 export const ProjectsData = [
   {
-    id: `food-${Date.now()}`,
+    id: `whatsApp-${Date.now()}`,
     name: "WhatsApp Clone",
     imgSrc: WhatsappClone,
     gitURL: "https://github.com/AdarshShriDev007/WhatsApp-clone",
     domainURL : "https://whatsapp-clone-8abe7.web.app/"
   },
   {
-    id: `codepen-${Date.now()}`,
+    id: `googleDrive-${Date.now()}`,
     name: "Google Drive Clone",
     imgSrc: DriveClone,
     gitURL: "https://github.com/AdarshShriDev007/Google-drive-clone",
     domainURL : "https://drive-clone-5bc6a.web.app/"
   },
   {
-    id: `openai-${Date.now()}`,
+    id: `linkedIn-${Date.now()}`,
     name: "LinkedIn Clone",
     imgSrc:  LinkedInClone,
     gitURL: "https://github.com/AdarshShriDev007/linkedIn-Clone",
     domainURL : "https://linkedin-clone-c42a1.web.app/"
   },
   {
-    id: `chatapp-${Date.now()}`,
+    id: `netflix-${Date.now()}`,
     name: "Netflix Clone",
     imgSrc: NetflixClone,
     gitURL: "https://github.com/AdarshShriDev007/Netflix-clone",
     domainURL : "https://netflix-clone-8a1d8.web.app/"
   },
   {
-    id: `imageSharing-${Date.now()}`,
+    id: `gmail-${Date.now()}`,
     name: "Gmail Clone",
     imgSrc: GmailClone,
     gitURL: "https://github.com/AdarshShriDev007/GmailClone",
     domainURL : "https://clone-cc937.web.app/"
   },
   {
-    id: `pixabayclone-${Date.now()}`,
+    id: `facebook-${Date.now()}`,
     name: "Facebook Clone",
     imgSrc: FacebookClone,
     gitURL: "https://github.com/AdarshShriDev007/facebook-clone",
     domainURL : "https://github.com/AdarshShriDev007/facebook-clone"
-  }
+  },
+  {
+    id: `uber-${Date.now()}`,
+    name: "Uber Clone UI",
+    imgSrc: UberClone,
+    gitURL: "https://github.com/AdarshShriDev007/Uber-Clone-UI",
+    domainURL : "https://uber-clone-ui.web.app/"
+  },
+  {
+    id: `serveEduUI-${Date.now()}`,
+    name: "ServEdu UI",
+    imgSrc: ServEdu_UI,
+    gitURL: "https://github.com/AdarshShriDev007/ServEdu-design",
+    domainURL : "https://servedu-ui.web.app/"
+  },
+  {
+    id: `weatherApp-${Date.now()}`,
+    name: "Weather App",
+    imgSrc: Weather_App,
+    gitURL: "https://github.com/AdarshShriDev007/Weather-app",
+    domainURL : "https://github.com/AdarshShriDev007/Weather-app"
+  },
 ];

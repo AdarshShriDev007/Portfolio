@@ -13,3 +13,7 @@ export { default as NetflixClone } from "./img/Project/thumb_netflix_clone.png";
 export { default as GmailClone } from "./img/Project/gmail-thumb.png";
 export { default as FacebookClone } from "./img/Project/facebook-thumb.png";
 
+export { default as UberClone } from "./img/Project/uber-thumb.png";
+export { default as ServEdu_UI } from "./img/Project/servedu-ui-thumb.png";
+export { default as Weather_App } from "./img/Project/weather-thumb.png";
+
