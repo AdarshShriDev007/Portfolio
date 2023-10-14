@@ -1,14 +1,16 @@
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @import url(https://fonts.googleapis.com/css?family=Croissant+One:regular);
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 body {
   min-height: 100vh;

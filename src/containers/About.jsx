@@ -1,5 +1,5 @@
 import React from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { Leaf1, Leaf2, about } from "../assets";
 
 const About = () => {
@@ -50,22 +50,32 @@ const About = () => {
         {/*content section */}
         <div className="w-full px-8 flex flex-col gap-4 items-start justify-start">
           <p className="text-texlight text-xs md:text-sm tracking-wide text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            omnis totam debitis, quidem doloremque nisi porro beatae dolorem
-            perspiciatis, autem natus assumenda! Fugiat, quidem alias tempore
-            praesentium veritatis rem eveniet.
+            I am a <b>Front-End Developer</b> with 2 years of experience in <b>ReactJs</b> and 
+            website design. Strong creative and analytical skills. Team player with 
+            an eye for detail. Recently I have done a specialization in <b>ReactJs</b> course 
+            from Wap Institute, which has given me the latest skills and knowledge in the 
+             <b> Front-End Development</b> industry.
           </p>
           <p className="text-texlight text-xs md:text-sm tracking-wide text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            omnis totam debitis, quidem doloremque nisi porro beatae dolorem
-            perspiciatis, autem natus assumenda! Fugiat, quidem alias tempore
-            praesentium veritatis rem eveniet.
+            My focus is on designing and developing websites that look great and work well. 
+            I am skilled in a range of programming, technologies and platforms, including HTML, 
+            CSS, Tailwind CSS, JavaScript, React, Redux, Material UI, Firebase, Axios, and Git.
+            I have created website clones of famous industries, such as WhatsApp, Facebook, Gmail, 
+            LinkedIn, Netflix, Google Drive and many more.
           </p>
           <p className="text-texlight text-xs md:text-sm tracking-wide text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            omnis totam debitis, quidem doloremque nisi porro beatae dolorem
-            perspiciatis, autem natus assumenda! Fugiat, quidem alias tempore
-            praesentium veritatis rem eveniet.
+            I enjoy working with other <b>Front-End Developers</b> and designers to 
+            make websites that match the client's brand and business objectives. 
+            I am committed to keeping up with the latest industry trends and best practices, 
+            and I attend professional <b>Front-End Developer</b> courses to improve my skills.
+          </p>
+          <p className="text-texlight text-xs md:text-sm tracking-wide text-justify">
+            My goal is to create websites that are both visually appealing 
+            and easy to use. I take pride in exceeding client expectations and 
+            delivering projects on time.
+          </p>
+          <p className="text-texlight text-xs md:text-sm tracking-wide text-justify">
+          If you are looking for a <b>Front-End Developer</b> with skills, please feel free to get in touch with me.
           </p>
         </div>
       </div>

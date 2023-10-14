@@ -1,8 +1,9 @@
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Hero } from "../assets";
+import { Hero,resume } from "../assets";
 import {HeroTypeWritter, HomeSocialLinks} from "../components";
 import {Socials} from "../utils/helper";
+
 
 const Home = () => {
   return (
@@ -26,10 +27,10 @@ const Home = () => {
             />
           </h2>
           <p className="text-xs md:text-sm text-texlight mt-4 text-center md:text-left">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus voluptates, 
-            temporibus perspiciatis iure dignissimos quod voluptatem a sunt 
-            officiis excepturi in accusantium, voluptatum rem magnam, 
-            repellendus necessitatibus quasi incidunt eos!
+            I am a qualified and professional <b>Front-End Developer</b> with 2 years of experience in <b>ReactJs</b> and
+            website design . Strong creative and analytical skills. Team player with an eye for detail.
+            <br /><br />
+            If you are looking for a <b>Front-End Developer</b> with skills, please feel free to get in touch with me.
           </p>
 
           {/* social media links*/}
@@ -44,7 +45,7 @@ const Home = () => {
           </div>
 
           {/* hire me */}
-          <a href="#" style={{boxShadow:"inset 0px 0px 10px rgba(255,255,255,0.3)"}} className="mt-10 border border-[rgba(255,255,255,0.3)] 
+          <a href={resume} target="_blank" rel="noreferrer" style={{boxShadow:"inset 0px 0px 10px rgba(255,255,255,0.3)"}} className="mt-10 border border-[rgba(255,255,255,0.3)] 
           rounded-xl px-8 py-3 active:95 group hover:border-primary">
             <p className="text-texlight group-hover:text-transparent group-hover:bg-clip-text 
             group-hover:bg-gradient-to-r group-hover:from-primary

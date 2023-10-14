@@ -6,45 +6,35 @@ import {
   FaHouse,
   FaLinkedinIn,
   FaRenren,
-  FaUser,
-  FaYoutube,
+  FaUser
 } from "react-icons/fa6";
 import {
-  ChatApp,
-  CodePenClone,
-  FreshJuiceUI,
-  ImageSharing,
-  OpenAI,
-  PixabayClone,
-  PortfolioFirebase,
-  RestaurantClone,
-  SocialMedia,
+  WhatsappClone,
+  DriveClone,
+  LinkedInClone,
+  NetflixClone,
+  GmailClone,
+  FacebookClone
 } from "../assets";
 
 export const Socials = [
   {
-    id: `facebook-${Date.now()}`,
-    Icon: FaFacebookF,
-    uri: "",
-    color: "#1877F2",
-  },
-  {
     id: `linkedin-${Date.now()}`,
     Icon: FaLinkedinIn,
-    uri: "",
+    uri: "https://www.linkedin.com/in/adarsh-k-shri-dev/",
     color: "#0072b1",
   },
   {
     id: `github-${Date.now()}`,
     Icon: FaGithub,
-    uri: "",
+    uri: "https://github.com/AdarshShriDev007",
     color: "#fff",
   },
   {
-    id: `youtube-${Date.now()}`,
-    Icon: FaYoutube,
-    uri: "",
-    color: "#ff0000",
+    id: `facebook-${Date.now()}`,
+    Icon: FaFacebookF,
+    uri: "https://www.facebook.com/profile.php?id=100094396703846",
+    color: "#1877F2",
   },
 ];
 
@@ -84,56 +74,44 @@ export const Menus = [
 export const ProjectsData = [
   {
     id: `food-${Date.now()}`,
-    name: "Single Food Restaurant",
-    imgSrc: RestaurantClone,
-    gitURL: "https://github.com/Vetrivel-VP",
+    name: "WhatsApp Clone",
+    imgSrc: WhatsappClone,
+    gitURL: "https://github.com/AdarshShriDev007/WhatsApp-clone",
+    domainURL : "https://whatsapp-clone-8abe7.web.app/"
   },
   {
     id: `codepen-${Date.now()}`,
-    name: "CodePen Clone",
-    imgSrc: CodePenClone,
-    gitURL: "https://github.com/Vetrivel-VP",
+    name: "Google Drive Clone",
+    imgSrc: DriveClone,
+    gitURL: "https://github.com/AdarshShriDev007/Google-drive-clone",
+    domainURL : "https://drive-clone-5bc6a.web.app/"
   },
   {
     id: `openai-${Date.now()}`,
-    name: "OpenAI",
-    imgSrc: OpenAI,
-    gitURL: "https://github.com/Vetrivel-VP",
+    name: "LinkedIn Clone",
+    imgSrc:  LinkedInClone,
+    gitURL: "https://github.com/AdarshShriDev007/linkedIn-Clone",
+    domainURL : "https://linkedin-clone-c42a1.web.app/"
   },
   {
     id: `chatapp-${Date.now()}`,
-    name: "Chat App Build",
-    imgSrc: ChatApp,
-    gitURL: "https://github.com/Vetrivel-VP",
+    name: "Netflix Clone",
+    imgSrc: NetflixClone,
+    gitURL: "https://github.com/AdarshShriDev007/Netflix-clone",
+    domainURL : "https://netflix-clone-8a1d8.web.app/"
   },
   {
     id: `imageSharing-${Date.now()}`,
-    name: "Image Sharing App",
-    imgSrc: ImageSharing,
-    gitURL: "https://github.com/Vetrivel-VP",
+    name: "Gmail Clone",
+    imgSrc: GmailClone,
+    gitURL: "https://github.com/AdarshShriDev007/GmailClone",
+    domainURL : "https://clone-cc937.web.app/"
   },
   {
     id: `pixabayclone-${Date.now()}`,
-    name: "Pixabay Clone 2.0",
-    imgSrc: PixabayClone,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
-  {
-    id: `freshjuiceui-${Date.now()}`,
-    name: "Fresh Juice UI Build",
-    imgSrc: FreshJuiceUI,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
-  {
-    id: `socialmedia-${Date.now()}`,
-    name: "Social Media App",
-    imgSrc: SocialMedia,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
-  {
-    id: `portfoliofirebase-${Date.now()}`,
-    name: "Portfolio UI Fireabse",
-    imgSrc: PortfolioFirebase,
-    gitURL: "https://github.com/Vetrivel-VP",
-  },
+    name: "Facebook Clone",
+    imgSrc: FacebookClone,
+    gitURL: "https://github.com/AdarshShriDev007/facebook-clone",
+    domainURL : "https://github.com/AdarshShriDev007/facebook-clone"
+  }
 ];

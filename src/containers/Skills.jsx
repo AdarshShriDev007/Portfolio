@@ -30,37 +30,23 @@ const Skills = () => {
       </div>
 
       {/*main content */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {/*content section */}
-        <div className="w-full px-8 flex flex-col gap-4 items-start justify-start">
-          <p
-            className="text-transparent bg-clip-text 
-          bg-gradient-to-r from-primary to-secondary"
-          >
-            My Skills and Qualification
-          </p>
-          <p className="text-texlight text-xs md:text-sm tracking-wide text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            omnis totam debitis, quidem doloremque nisi porro beatae dolorem
-            perspiciatis, autem natus assumenda! Fugiat, quidem alias tempore
-            praesentium veritatis rem eveniet.
-          </p>
-          <p className="text-texlight text-xs md:text-sm tracking-wide text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            omnis totam debitis, quidem doloremque nisi porro beatae dolorem
-            perspiciatis, autem natus assumenda! Fugiat, quidem alias tempore
-            praesentium veritatis rem eveniet.
-          </p>
-          <p className="text-texlight text-xs md:text-sm tracking-wide text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            omnis totam debitis, quidem doloremque nisi porro beatae dolorem
-            perspiciatis, autem natus assumenda! Fugiat, quidem alias tempore
-            praesentium veritatis rem eveniet.
-          </p>
+      <div className="hidden md:block w-full">
+        <div className="grid mx-auto grid-cols-2 gap-4 w-full md:w-[90%] lg:w-[80%] md:px-5 lg:px-8">
+          <SkillCard skill={"HTML"} percentage={"95%"} color={"#FC4F13"} move={true} />
+          <SkillCard skill={"CSS"} percentage={"75%"} color={"#306AF1"} move={true} />
+          <SkillCard skill={"JavaScript"} percentage={"65%"} color={"#F7E025"} move={false} />
+          <SkillCard skill={"Bootstrap"} percentage={"60%"} color={"#8C19FE"} move={false} />
+          <SkillCard skill={"Tailwind CSS"} percentage={"75%"} color={"#3EBFF8"} move={true} />
+          <SkillCard skill={"ReactJs"} percentage={"70%"} color={"#09BEFE"} move={true} />
+          <SkillCard skill={"Material UI"} percentage={"63%"} color={"#0883FF"} move={false} />
+          <SkillCard skill={"Framer Motion"} percentage={"45%"} color={"#F009BB"} move={false} />
+          <SkillCard skill={"Firebase"} percentage={"80%"} color={"#FFCD35"} move={true} />
+          <SkillCard skill={"Git"} percentage={"50%"} color={"#F05639"} move={true} />
         </div>
+      </div>
 
-        {/*image section*/}
-        <div className="w-full flex flex-col gap-4 items-center justify-center px-8">
+      <div className="block md:hidden w-full">
+        <div className="w-full flex flex-col items-center justify-center gap-4 px-8">
           <SkillCard skill={"HTML"} percentage={"95%"} color={"#FC4F13"} move={true} />
           <SkillCard skill={"CSS"} percentage={"75%"} color={"#306AF1"} move={false} />
           <SkillCard skill={"JavaScript"} percentage={"65%"} color={"#F7E025"} move={true} />
@@ -73,6 +59,7 @@ const Skills = () => {
           <SkillCard skill={"Git"} percentage={"50%"} color={"#F05639"} move={false} />
         </div>
       </div>
+        
     </section>
   );
 };

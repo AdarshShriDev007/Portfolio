@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Leaf1, Leaf2, about } from "../assets";
+import { Leaf1, Leaf2 } from "../assets";
 import { ProjectsData } from "../utils/helper";
 import { FaGithub } from "react-icons/fa6";
 
@@ -23,8 +23,8 @@ const Projects = () => {
         {
           isHoverred && (<motion.div className="absolute inset-0 backdrop-blur-md bg-[rgba(0,0,0,0.6)] 
           flex items-center justify-center flex-col gap-2">
-            <p className="text-base text-primary">{project.name}</p>
-            <a href={project?.gitURL} className="">
+            <p className="text-base text-primary hover:text-white hover:underline"><a href={project?.domainURL} target="_blank" rel="noreferrer">{project.name}</a></p>
+            <a href={project?.gitURL} target="_blank" rel="noreferrer">
               <FaGithub className="text-2xl text-white hover:text-primary" />
             </a>
           </motion.div>)

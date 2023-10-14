@@ -9,6 +9,7 @@ import { HomeSocialLinks } from "../components";
 import { Socials } from "../utils/helper";
 import { AnimatePresence } from "framer-motion";
 import ParticlesContainer from "./ParticlesContainer";
+import {resume} from "../assets";
 
 const App = () => {
   return (
@@ -52,7 +53,7 @@ const App = () => {
         <address className="text-texlight text-center flex items-center gap-2"><address className="text-primary">Address : </address>New Delhi, India - 110045</address>
           <address className="text-texlight text-center flex items-center gap-2"><address className="text-primary">Email : </address>adarshshrivastava.dev@gmail.com</address>
           <address className="text-texlight text-center flex items-center gap-2"><address className="text-primary">Mobile : </address>+91 8368284349</address>
-          <a href="#" style={{boxShadow:"inset 0px 0px 10px rgba(255,255,255,0.3)"}} className="mt-10 border border-[rgba(255,255,255,0.3)] 
+          <a href={resume} target="_blank" rel="noreferrer" style={{boxShadow:"inset 0px 0px 10px rgba(255,255,255,0.3)"}} className="mt-10 border border-[rgba(255,255,255,0.3)] 
           rounded-xl px-8 py-3 active:95 group hover:border-primary">
             <p className="text-texlight group-hover:text-transparent group-hover:bg-clip-text 
             group-hover:bg-gradient-to-r group-hover:from-primary
